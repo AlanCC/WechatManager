@@ -75,15 +75,16 @@ def analyzeEn(sentence):
 
 def analyzeJunk(sentence):
 	seg_list = jieba.cut(sentence, cut_all = True)
-	junk_list = {'团购','红包','特价','劲爆'}
+	junk_list = {u'团购',u'红包',u'特价',u'劲爆'}
 	for s in seg_list:
 		if s in junk_list:
 			return 1
 	return 0
 
 def groupNotice(sentence, keywords):
+	flag = False
 	for word in keywords:
-		if sentence.find(word):
+		if word in sentence:
 			flag = True
 			break
 	return flag

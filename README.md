@@ -1,1 +1,2 @@
-# WechatManager
+# betaGo
+a wechat auxiliary program
