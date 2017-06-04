@@ -12,7 +12,7 @@ global groupDict
 groupDict = dict()
 
 global keywords
-keywords = [u'所有人', u'关玉烁', u'乐在火旁']
+keywords = [u'所有人', u'陈骁宇', u'CC']
 
 class msgCache:
 	def __init__(self, text, author, id):

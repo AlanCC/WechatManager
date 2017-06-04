@@ -1,2 +1,2 @@
-# betaGo
-a wechat auxiliary program
+# WechatManager
+a wechat auxiliary program using itchat, jieba and Yahoo's nsfw
